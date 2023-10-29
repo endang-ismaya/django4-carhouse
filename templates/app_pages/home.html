@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+  <!-- Banner start -->
+  {% include "app_pages/components/banner.html" %}
+  <!-- Banner end -->
+  <!-- Search box 2 end -->
+  <!-- Featured car start -->
+  {% include "app_pages/components/featured-cars.html" %}
+  <!-- Featured car end -->
+  <!-- Latest Cars start -->
+  {% include "app_pages/components/latest-cars.html" %}
+  <!-- Latest Cars end -->
+  <!-- Our team start -->
+  {% include "app_pages/components/executive-team.html" %}
+  <!-- Our team end -->
+  <!-- Intro section start -->
+  {% include "app_pages/components/intro-section.html" %}
+  <!-- Intro section end -->
+  <!-- Footer start -->
+  {% include "includes/footer.html" %}
+  <!-- Footer end -->
+  <!-- Full Page Search -->
+  {% include "app_pages/components/full-page-search-form.html" %}
+  <!-- Car Overview Modal -->
+  {% include "app_pages/components/car-overview-modal.html" %}
+{% endblock content %}
