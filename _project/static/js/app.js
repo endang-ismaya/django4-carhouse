@@ -101,7 +101,7 @@ $(function () {
                 if ($(".do-sticky").length < 1) {
                     $(".company-logo img").attr(
                         "src",
-                        "static/img/logos/black-logo.png"
+                        "/static/img/logos/black-logo.png"
                     );
                 }
             } else {
@@ -113,19 +113,19 @@ $(function () {
                 ) {
                     $(".company-logo img").attr(
                         "src",
-                        "static/img/logos/logo.png"
+                        "/static/img/logos/logo.png"
                     );
                 } else {
                     $(".company-logo img").attr(
                         "src",
-                        "static/img/logos/black-logo.png"
+                        "/static/img/logos/black-logo.png"
                     );
                 }
             }
         } else {
             $(".company-logo img").attr(
                 "src",
-                "static/img/logos/black-logo.png"
+                "/static/img/logos/black-logo.png"
             );
         }
     }
